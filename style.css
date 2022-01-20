@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,900&family=Ubuntu+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(13, 0, 27);
+    width: 250px;
+    font-family: 'Ubuntu Mono', monospace;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    color: rgb(209, 252, 241) /*delete this after linking*/
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(209, 252, 241)
+}
+
+.main{
+    background-color: black;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /*background-color: rgb(255, 0, 0);*/
+    height: 56vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.devInfo{
+    display: flex;
+    /*align-items: center;*/
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hello{
+    font-size: 23px;
+    font-family: 'Exo', sans-serif;
+    padding-top: 8vh;
+}
+
+.name{
+    font-size: 113px;
+    font-weight: bold;
+    /*font-family: 'Ubuntu Mono', monospace;*/
+    /*font-family: 'Paytone One', sans-serif;*/
+    font-family: 'Russo One', sans-serif;
+    padding: 1vh 0;
+}
+
+.about{
+    font-size: 27px;
+    font-family: 'Exo', sans-serif;
+}
+
+.moreabout{
+    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+}
+
+.buttons{
+    margin-top: 1.6vw;
+}
+
+.buttons button{
+    padding: 0.9vh 0.9vw;
+    border-radius: 1vw;
+    color: rgb(193, 255, 247);
+    background-color: rgb(26, 7, 46);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 0.3vw;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: rgb(193, 255, 247);
+    color: rgb(20, 4, 37);
+}
+
+.devPic img{
+    width: 33vw;
+    height: 30vh;
+    padding-top: 15vh;
+    padding-left: 1vw;
+}
+
+.contactForm{
+    font-family: 'Exo', sans-serif;
+    /*font-family: 'Ubuntu Mono', monospace;*/
+    color: white;
+    padding: 0 34px;
+    padding-top: 50px;
+}
+
+.contactForm h1{
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 80px;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+        flex-direction: column;
+}
+
+#Help{
+    font-size: 12px;
+    color: rgb(253, 177, 177);
+    margin: 0 5px;
+}
+
+#clientname{
+    width: 16vw;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px;
+}
+
+#clientemail{
+    width: 16vw;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px;
+}
+
+#clientphone{
+    width: 16vw;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px;
+}
+
+#messagesubject{
+    width: 16vw;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px;
+}
+
+#clientmessage{
+    width: 48vw;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.contactForm button{
+    padding: 9px 14px;
+    border-radius: 16px;
+    color: rgb(193, 255, 247);
+    background-color: rgb(35, 8, 65);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+    
+.contactForm button:hover{
+    background-color: rgb(193, 255, 247);
+    color: rgb(20, 4, 37);
+}
+
+.aboutcontainter{
+    /*background-color: red;*/
+    height: 56vh;
+    width: 80vw;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.main h1{
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-size: 80px;
+}
+
+.aboutInfo{
+    /*background-color: blue;*/
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+    padding: 2px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.aboutPic img{
+    width: 35vw;
+    height: 52vh;
+    border-radius: 800px;
+    padding-top: 18px;
+}
+
+.main h2{
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+
+.skillcontainer{
+    height: 56vh;
+    width: 80vw;
+    margin: 0 30px;
+    padding: 2px 0;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.skillitem{
+    display: flex;
+    margin: 8px 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.skill{
+    width: 693px;
+    height: 13px;
+    background-color: rgb(19, 146, 140);
+    padding-left: 30px;
+    margin: 8px 15px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.t100{
+    width: 300px;
+    background-color: green;
+}
+
+.t75{
+    width: 300px;
+    background-color: greenyellow;
+}
+
+.t50{
+    width: 150px;
+    background-color: yellow;
+}
+
+.t25{
+    width: 75px;
+    background-color: orange;
+}
+
+@media (max-width: 1615px) {
+    *{
+        background-color: black
+    }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+}
+
+@media (max-width: 800px) {
+    *{
+        background-color: black
+    }
+    .devInfo{
+        transform: translate(2vh, 10vw);
+        position: absolute;
+    }
+    .devPic img{
+        transform: translate(-14vh, -30vw);
+        position: absolute;
+    }
+}
+
+
+@media (max-width: 660px) {
+    *{
+        background-color: black
+    }
+    .devInfo{
+        transform: translate(2vh, 10vw);
+        position: absolute;
+    }
+    .devPic img{
+        transform: translate(-13vh, -42vw);
+        position: absolute;
+    }
+}
+
+@media (max-width: 500px) {
+    *{
+        background-color: black
+    }
+    .devInfo{
+        transform: translate(2vh, 10vw);
+        position: absolute;
+    }
+    .devPic img{
+        transform: translate(-9vh, -50vw);
+        position: absolute;
+    }
+}
